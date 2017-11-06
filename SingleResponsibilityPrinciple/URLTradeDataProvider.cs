@@ -9,6 +9,8 @@ using SingleResponsibilityPrinciple.Contracts;
 
 namespace SingleResponsibilityPrinciple
 {
+
+    //  New class
    public class URLTradeDataProvider : ITradeDataProvider
     {
         public URLTradeDataProvider(Stream stream)
