@@ -18,6 +18,7 @@ namespace SingleResponsibilityPrinciple
 
             using (StreamWriter logfile = File.AppendText("log.xml"))
             {
+
                 logfile.WriteLine("<log><type>INFO</type><message>4 trades processed</message></log> ", args);
             }
         }
